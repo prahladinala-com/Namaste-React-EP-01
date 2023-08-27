@@ -47,7 +47,7 @@ const socials = React.createElement("section", { className: "row" }, [
       React.createElement(
         "a",
         {
-          href: "https://www.linkedin.com/in/prahladinala/",
+          href: "https://www.instagram.com/prahlad.inala/",
           className: "text-decoration-none",
           target: "_blank",
         },
@@ -72,7 +72,7 @@ const socials = React.createElement("section", { className: "row" }, [
       React.createElement(
         "a",
         {
-          href: "https://www.linkedin.com/in/prahladinala/",
+          href: "https://www.twitter.com/prahladinala/",
           className: "text-decoration-none",
           target: "_blank",
         },
@@ -99,7 +99,7 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
   [
     React.createElement(
       "div",
-      { className: "col" },
+      { className: "col my-2" },
       React.createElement(
         "a",
         {
@@ -111,7 +111,7 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
           "div",
           { className: "card" },
           React.createElement("img", {
-            src: "https://images.pexels.com/photos/13847596/pexels-photo-13847596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            src: "https://images.pexels.com/photos/2756842/pexels-photo-2756842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             className: "card-img-top",
             alt: "ToolMate",
           }),
@@ -138,11 +138,11 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
     ),
     React.createElement(
       "div",
-      { className: "col" },
+      { className: "col my-2" },
       React.createElement(
         "a",
         {
-          href: "https://toolmate.co.in",
+          href: "https://ui.toolmate.co.in",
           className: "text-decoration-none text-dark",
           target: "_blank",
         },
@@ -150,9 +150,9 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
           "div",
           { className: "card" },
           React.createElement("img", {
-            src: "https://images.pexels.com/photos/13847596/pexels-photo-13847596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            src: "https://images.pexels.com/photos/5054776/pexels-photo-5054776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             className: "card-img-top",
-            alt: "ToolMate",
+            alt: "ToolMate UI",
           }),
           React.createElement(
             "div",
@@ -163,12 +163,12 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
               React.createElement(
                 "h5",
                 { className: "card-title" },
-                "ToolMate"
+                "ToolMate UI"
               ),
               React.createElement(
                 "p",
                 { className: "card-text" },
-                "A simple tool platform for all your tool needs"
+                "A Tailwind CSS UI Kit for Developers and Designers"
               ),
             ]
           )
@@ -177,11 +177,11 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
     ),
     React.createElement(
       "div",
-      { className: "col" },
+      { className: "col my-2" },
       React.createElement(
         "a",
         {
-          href: "https://toolmate.co.in",
+          href: "https://blog.toolmate.co.in",
           className: "text-decoration-none text-dark",
           target: "_blank",
         },
@@ -189,9 +189,9 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
           "div",
           { className: "card" },
           React.createElement("img", {
-            src: "https://images.pexels.com/photos/13847596/pexels-photo-13847596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            src: "https://images.pexels.com/photos/7775641/pexels-photo-7775641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             className: "card-img-top",
-            alt: "ToolMate",
+            alt: "ToolMate Blog",
           }),
           React.createElement(
             "div",
@@ -202,12 +202,12 @@ const projects = React.createElement("section", { className: "row mt-5" }, [
               React.createElement(
                 "h5",
                 { className: "card-title" },
-                "ToolMate"
+                "ToolMate Blog"
               ),
               React.createElement(
                 "p",
                 { className: "card-text" },
-                "A simple tool platform for all your tool needs"
+                "A simple blog platform for technical content and knowledge sharing"
               ),
             ]
           )
