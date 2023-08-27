@@ -6,5 +6,7 @@ const heading = React.createElement(
   },
   "Hello World!"
 );
-const root = document.getElementById("root");
-ReactDOM.render(heading, root);
+// const root = document.getElementById("root");
+// ReactDOM.render(heading, root);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);
